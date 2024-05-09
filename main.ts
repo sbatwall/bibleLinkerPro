@@ -473,6 +473,48 @@ export default class BibleLinkerPro extends Plugin {
 					["offb", "offenbarung"],
 				];
 
+				const bibleBooksKO = [
+					["창", "창세기"],
+					["출", "출애굽기"],
+					["레", "레위기"],
+					["민", "민수기"],
+					["신", "신명기"],
+					["수", "여호수아"],
+					["삿", "사사기"],
+					["룻", "룻기"],
+					["삼상", "사무엘상"],
+					["삼하", "사무엘하"],
+					["왕상", "열왕기상"],
+					["왕하", "열왕기하"],
+					["대상", "역대기상"],
+					["대하", "역대기하"],
+					["라", "에스라"],
+					["느", "느헤미야"],
+					["더", "에스더"],
+					["욥", "욥기"],
+					["시", "시편"],
+					["잠", "잠언"],
+					["전", "전도서"],
+					["아", "솔로몬의 노래"],
+					["사", "이사야"],
+					["렘", "예레미야"],
+					["애", "예레미야 애가"],
+					["겔", "에스겔"],
+					["단", "다니엘"],
+					["호", "호세아"],
+					["욜", "요엘"],
+					["암", "아모스"],
+					["옵", "오바댜"],
+					["욘", "요나"],
+					["미", "미가"],
+					["나", "나훔"],
+					["합", "하박국"],
+					["습", "스바냐"],
+					["학", "학개"],
+					["슥", "스가랴"],
+					["말", "말라기"],
+				];
+
 				let bibleBooks = bibleBooksEN;
 
 				if (this.settings.pluginLanguage == "nl") {
@@ -483,6 +525,8 @@ export default class BibleLinkerPro extends Plugin {
 					bibleBooks = bibleBooksPtBr;
 				} else if (this.settings.pluginLanguage == "de") {
 					bibleBooks = bibleBooksDE;
+				} else if (this.settings.pluginLanguage == "ko") {
+					bibleBooks = bibleBooksKO;
 				}
 
 				let linkOutput = "";
