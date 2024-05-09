@@ -164,7 +164,7 @@
 		"AUTO_OPEN_LINK": "Automatisches öffenen des generierten Links",
 		"AUTO_OPEN_LINK_DESC": "Öffnet den generierten Link automatisch in der JW Libary."
 	}
-		"en": {
+		"ko": {
 		"ABOUT": "정보",
 		"CREATED_WITH_LOVE": "Created with ❤️ by",
 		"DOCUMENTATION": "문서",
@@ -180,20 +180,20 @@
 		"CAPITALIZE_FIRST_CHARACTER": "첫 글자를 대문자로 바꾸기",
 		"CAPITALIZE_FIRST_CHARACTER_DESC": "알파벳을 사용하는 언어에서 성경 이름의 첫 글자를 대문자로 바꿉니다.",
 		"ADD_SPACE_BIBLE_BOOK_NUMBER_NAME": "번호와 책 이름 사이에 공백 삽입",
-		"ADD_SPACE_BIBLE_BOOK_NUMBER_NAME_DESC": "성경 이름에 숫자를 사용하는 언어에서 숫자와 책 이름 사이에 공백 문자를 삽입합니다. 예: '1 Joh'.",
+		"ADD_SPACE_BIBLE_BOOK_NUMBER_NAME_DESC": "성경 이름에 숫자가 포함된 경우 숫자와 책 이름 사이에 공백 문자를 삽입합니다. 예: '1 Joh'.",
 		"RENDER_LINK_OUTPUT_BOLD": "링크를 굵은 글씨로 표시",
 		"RENDER_LINK_OUTPUT_BOLD_DESC": "링크에 굵은 글씨 서식을 적용합니다.",
 		"RENDER_LINK_OUTPUT_ITALIC": "링크를 이탤릭체로 표시",
 		"RENDER_LINK_OUTPUT_ITALIC_DESC": "링크에 이탤릭체 서식을 적용합니다.",
 		"LINK_PREFIX": "링크 앞글자",
-		"LINK_PREFIX_DESC": "Prefix for the link, e.g. '- '.",
+		"LINK_PREFIX_DESC": "링크 앞부분에 추가되는 텍스트입니다., 예: '- '.",
 		"LINK_SUFFIX": "링크 뒷글자",
-		"LINK_SUFFIX_DESC": "Suffix for the link, e.g. '!!!'.",
+		"LINK_SUFFIX_DESC": "링크 뒷부분에 추가되는 텍스트입니다., 예: '!!!'.",
 		"PREFIX_HERE": "앞글자",
 		"SUFFIX_HERE": "뒷글자",
 		"CLEAR_LINK_PREFIX": "앞글자 초기화",
 		"CLEAR_LINK_SUFFIX": "뒷글자 초기화",
-		"INVALID_INPUT": "Invalid Bible text input! Before you execute this command you need to select a valid Bible text like: '1 th 1:3-8'.",
+		"INVALID_INPUT": "잘못된 텍스트입니다! 이 명령을 실행하기 위해서는 올바른 형식의 성경 텍스트를 선택해야 합니다. 예: '살전 1:3-8'.",
 		"AUTO_OPEN_LINK": "생성한 링크를 자동으로 열기",
 		"AUTO_OPEN_LINK_DESC": "생성한 링크를 자동으로 JW Library에서 엽니다."
 	}
